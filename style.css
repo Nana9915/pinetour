@@ -1,0 +1,239 @@
+ body {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+        background-color: #F4F4F4;
+    }
+
+    .header {
+        background-color: #101010;
+        padding: 19px 0;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        color: #303030;
+        font-size: 72px;
+        margin: 0 0 8px 0;
+    }
+
+    .hero p {
+        margin: 0;
+        color: #ababab;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .photo {
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        gap: 21px;
+        margin-bottom: 240px ;
+        margin-top: 80px;
+
+    }
+
+    .container {
+        width: 1198px;
+        margin: 240px auto;
+    }
+
+    .trips {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .milestones {
+        width: 368px;
+
+    }
+
+    .badge {
+        width: 56px;
+        height: 56px;
+        background-color: #1d1f24;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #16a94a;
+        font-size: 17px;
+        z-index: inherit;
+    }
+
+    .container ul {
+        list-style-type: none;
+    }
+
+    .to {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        text-align: left;
+        color: #ababab
+    }
+
+    .hh {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+        text-align: left;
+    }
+
+    .box1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    .box2 {
+        margin-top: 80px; 
+
+    }
+
+    .pricing h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.51px;
+    }
+
+    .pricing p {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.26px;
+        color: #ababab;
+    }
+
+    .pricing {
+        margin-top: 240px;
+        text-align: center;
+        
+
+    }
+.box3 {
+    width: Fixed (789px)px;
+height: Fixed (607px)px;
+top: 2130px;
+left: 326px;
+gap: 80px;
+margin-bottom: 240px;
+}
+.boxx {
+    height: 370px;
+    background-color: white;
+    border-radius: 25px;
+    width: 285px;
+    padding: 40px;
+    box-sizing: border-box;
+
+    border: 2px solid white;
+}
+.b {
+    display: flex;
+        justify-content: center;
+        gap: 20px;
+}
+ul{
+    padding: 0;
+}
+.b li {
+    margin: 0px;
+    margin-bottom: 13px;
+    color: #ababab;
+    text-align: left;
+}
+.boxx:hover {
+border: 2px solid #18BA51;
+}
+    .pricing p {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ababab;
+    margin: 0;
+    margin: 10px;
+    }
+    .pricing h1 {
+        font-size: 48px;
+        color: #303030;
+        margin: 0;
+        margin-bottom: 80px;
+    }
+
+    .footertop {
+        background-color: #171717;
+        padding: 150px 0;
+        text-align: center;
+    }
+    .footertop .title {
+        font-size: 32px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .footertop .bttn {
+        background-color: #18ba51;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px 20px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 4px;
+        border: 2px solid #18ba51;
+        transition: all 0.3s;
+    }
+    .footertop .bttn:hover {
+        background-color: transparent;
+    }
+    .footerbottom {
+        background-color: #101010;
+        padding: 80px 120px;
+        border: 1px solid #303030;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .flogo {
+        width: 81px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    .footerso {
+        display: flex;
+        gap: 20px;
+
+    }
+    .footerbottom .bttn {
+background-color: #303030;
+padding: 10px 20px;
+color: #fff ;
+border-radius: 4px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+
+display: flex;
+align-items: center;
+gap: 10px;
+border: 2px solid #303030;
+transition: all 0.3s;
+    }
+    .footerbottom .bttn svg{
+        width: 21px;
+        height: 21px;
+    }
+    .footerbottom .bttn:hover {
+       background-color: #3B5998;
+    }
+    .footerbottom .bttn:last-child:hover {
+       background-color: #b93c93;
+    }
+    
